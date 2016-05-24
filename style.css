@@ -257,6 +257,14 @@ content-center {
     justify-content: center;
 }
 
+#important2 {
+    font-size: 9vmin;
+    color: #e74c3c;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
 
 /* WATER */
 
@@ -437,7 +445,7 @@ svg path {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  line-height: 100vh;
+  
   letter-spacing: 2px;
 }
 

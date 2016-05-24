@@ -479,6 +479,8 @@ svg path {
     left: 0;
     overflow: hidden;
     z-index: -1000;
+        width: 150%;
+    height: 150%;
 }
 
 .full-screen-video video {
@@ -489,4 +491,9 @@ svg path {
     height: 100%;
 }
 
+
+.text-sixth {
+    font-size: 7vmin;
+    text-align: center;
+}
 

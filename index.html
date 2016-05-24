@@ -15,33 +15,42 @@
     </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script src="fadein-js"></script>
-    <script>
-         $(window).on("load",function() {
-  $(window).scroll(function() {
-    $(".fade").each(function() {
-      /* Check the location of each desired element */
-      var objectBottom = $(this).offset().top + $(this).outerHeight();
-      var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-      
-      /* If the element is completely within bounds of the window, fade it in */
-      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-        if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);}
-      } else { //object goes out of view (scrolling up)
-        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
-      }
-    });
-  }); $(window).scroll(); //invoke scroll-handler on page-load
-});</script>
-    <script>var intro = document.querySelector('.banner');
-var introPlayer = document.querySelector('.banner__video');
 
-var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
-if (iOS) {
-  intro.style.backgroundImage = 'url("' + introPlayer.poster + '")';
-  introPlayer.style.display = 'none';
-}</script>
+    <script>
+        $(window).on("load", function () {
+            $(window).scroll(function () {
+                $(".fade").each(function () {
+                    /* Check the location of each desired element */
+                    var objectBottom = $(this).offset().top + $(this).outerHeight();
+                    var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+
+                    /* If the element is completely within bounds of the window, fade it in */
+                    if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                        if ($(this).css("opacity") == 0) {
+                            $(this).fadeTo(1000, 1);
+                        }
+                    } else { //object goes out of view (scrolling up)
+                        if ($(this).css("opacity") == 1) {
+                            $(this).fadeTo(500, 0);
+                        }
+                    }
+                });
+            });
+            $(window).scroll(); //invoke scroll-handler on page-load
+        });
+    </script>
+    <script>
+        var intro = document.querySelector('.banner');
+        var introPlayer = document.querySelector('.banner__video');
+
+        var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
+        if (iOS) {
+            intro.style.backgroundImage = 'url("' + introPlayer.poster + '")';
+            introPlayer.style.display = 'none';
+        }
+    </script>
 
     <title>UK Floods 2015/16 - AID</title>
 </head>
@@ -72,6 +81,7 @@ if (iOS) {
     </section>
 
 
+
     <section class="night-sky" id="second">
 
         <p class="text-first section2">WHAT IF I ALSO TOLD YOU</p>
@@ -97,7 +107,7 @@ if (iOS) {
 
 
         <div class="app">
-            
+
             <script type="text/javascript">
                 (function () {
 
@@ -125,7 +135,7 @@ if (iOS) {
     S8,13.4,8,13.4V25h1024h1024V13.4C2056,13.4,1979.4,1.6,1833.1,1.6z" />
                 </svg>
             </div>
-            
+
             <div class="bottom">
                 <p class="water-text" id="water-text-top">WITH THE</p>
                 <img src="Images/UK-FLOODS/teddy.png" class="teddy-bear">
@@ -133,53 +143,55 @@ if (iOS) {
                 <p class="water-text"> OCCURRING ON</p>
                 <p class="water-text"> CHRISTMAS AND BOXING DAY</p>
             </div>
-            
+
             <div class="svg-container">
-            <svg class="bottom_wave" version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="8 0 2048 25" enable-background="new 8 0 2048 25" xml:space="preserve" preserveAspectRatio="none">
+                <svg class="bottom_wave" version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="8 0 2048 25" enable-background="new 8 0 2048 25" xml:space="preserve" preserveAspectRatio="none">
                     <path fill="#008571" d="M1833.1,1.6c-146.3,0-360.7,22.4-527,22.4s-274-10.6-274-10.6S955.4,1.6,809.1,1.6S448.4,24,282,24
     S8,13.4,8,13.4V25h1024h1024V13.4C2056,13.4,1979.4,1.6,1833.1,1.6z" />
-                </svg></div>
+                </svg>
+            </div>
         </div>
 
 
-    
+
     </section>
     <section class="full_width" id="fourth">
-        
-        
-        
+
+
+
         <p class="text-fourth">LEAVING PEOPLE STRANDED,</p>
 
         <p class="text-fourth">CONFUSED,</p>
-        
+
         <p class="text-fourth">AND UNSURE OF WHAT TO DO </p>
     </section>
-    
-      <section class="full_width" id="fifth">
-        
-        
-        
-        <p class="text-fifth fade" >BUT, WHY?</p>
+
+
+
+
+    <section class="full_width" id="fifth">
+
+
+
+        <p class="text-fifth fade">BUT, WHY?</p>
 
     </section>
-    
-    <section class="full_width" id="sixth">
-    
-        <div id="fixed">
-        <div class="banner">
-            <p class="text-full-height">THE GOVERNMENT CUT FLOOD DEFENCE FUNDINGS</p>
-       
 
-    <video id="fixed" autoplay loop muted class="banner__video" poster="https://pawelgrzybek.com/photos/2015-12-06-codepen.jpg">
-      <source src="video/floods.webm" type="video/webm">
-      <source src="video/floods.mp4" type="video/mp4">
-        
-    </video>
-            
-  </div>
-             <p class="text-full-height">THE GOVERNMENT CUT FLOOD DEFENCE FUNDINGS</p>
-            </div>
-        
+    <section class="full_width" id="sixth">
+
+            <div class="banner">
+                <p class="text-fourth">THE GOVERNMENT CUT FLOOD DEFENCE FUNDINGS</p>
+
+                <div class="full-screen-video">
+                    <video id="fixed" autoplay loop muted poster="https://pawelgrzybek.com/photos/2015-12-06-codepen.jpg">
+                        <source src="video/floods.webm" type="video/webm">
+                        <source src="video/floods.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+                
+            <p class="text-fourth">THE GOVERNMENT CUT FLOOD DEFENCE FUNDINGS</p>
+        </div>
     </section>
 
 

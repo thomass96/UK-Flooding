@@ -1,4 +1,7 @@
 /*---TYPOGRAPHY---*/
+head {
+        -webkit-transform: translate3d(0,0,0);
+}
 
 html,
 body {

@@ -533,6 +533,7 @@ svg path {
 .eighth {
     height: 140vh;
     background-color: #EEEEEE;
+    overflow:auto;
 
 }
 

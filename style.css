@@ -670,12 +670,15 @@ svg path {
     margin: auto;
     text-align: center;
     float: left;
+    width: 100%;
 }
 
 .tm-logo {
     display:block;
     margin:auto;
-    width: 20%;
+    min-height: 20%;
+    max-height: 100%;
+    
 }
 
 .fade-out {

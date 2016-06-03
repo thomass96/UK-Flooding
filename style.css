@@ -104,6 +104,7 @@ body {
     background-position: bottom, top;
     background-attachment: scroll, fixed;
     z-index: -4;
+    -webkit-transform: translate3d(0,0,0);
     position: relative;
     padding-top: .001%;
     height: 100vh;
@@ -129,6 +130,7 @@ body {
 
 #fourth {
     z-index: 3;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .circle {
@@ -144,6 +146,7 @@ body {
     left: 50%;
     top: 50%;
     z-index: -1;
+    
     position: relative;
 }
 
@@ -307,6 +310,7 @@ svg path {
 
 .water-text {
     z-index: 4;
+    -webkit-transform: translate3d(0,0,0);
     padding-bottom: 5%;
     position: relative;
     display: flex;
@@ -318,6 +322,7 @@ svg path {
 
 .teddy-bear {
     z-index: 5;
+    -webkit-transform: translate3d(0,0,0);
     width: 400px;
     display: flex;
     position: absolute;
@@ -418,6 +423,7 @@ svg path {
     background-color: #393F44;
     overflow: visible;
     z-index: -100;
+    -webkit-transform: translate3d(0,0,0);
     min-height: 300vh;
         background-image: url(Images/CONFUSED-FLOOD-TOWN.png);
     background-attachment: fixed, fixed;
@@ -430,6 +436,7 @@ svg path {
     background-color: #FFFFFF;
     overflow: visible;
     z-index: -100;
+    -webkit-transform: translate3d(0,0,0);
     min-height: 100vh;
 }
 
@@ -473,6 +480,7 @@ svg path {
   min-height: 100%;
   transform: translateX(-50%) translateY(-50%);
   z-index: -1;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .text-full-height {
@@ -502,6 +510,7 @@ svg path {
     left: 0;
     overflow: hidden;
     z-index: -1000;
+    -webkit-transform: translate3d(0,0,0);
         width: 150%;
     height: 150%;
 }
